@@ -1,1 +1,49 @@
-// TODO
+.contentContainer {
+  margin: 0 auto;
+  height: calc(100vh - 5rem);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.post {
+  width: 720px;
+
+  strong {
+    display: block;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 3.625rem;
+
+    letter-spacing: -0.5px;
+    margin-top: 5rem;
+  }
+}
+
+.banner {
+  height: 400px;
+  width: 100%;
+}
+
+.postContent {
+  width: 720px;
+
+  margin-top: 2rem;
+  line-height: 2rem;
+  font-size: 1.125rem;
+  color: var(--gray-100);
+
+  p, ul {
+    margin: 1.5rem 0;
+  }
+
+  ul {
+    padding-left: 1.5rem;
+
+    li {
+      margin: 0.5rem 0;
+    }
+  }
+}

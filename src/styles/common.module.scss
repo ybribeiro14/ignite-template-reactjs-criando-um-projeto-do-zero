@@ -1,1 +1,27 @@
-// TODO
+.infos {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin-top: 1.5rem;
+  color: var(--info);
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.5rem;
+
+    time {
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+    }
+
+    svg {
+      margin-right: 8px;
+      font-size: 1.25rem;
+    }
+  }
+
+}
